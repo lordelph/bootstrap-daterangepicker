@@ -1,0 +1,37 @@
+{
+    "name": "lordelph/bootstrap-daterangepicker",
+    "description": "Date Range Picker for Bootstrap",
+    "keywords": [
+        "javascript",
+        "bootstrap",
+        "date",
+        "time",
+        "range"
+    ],
+    "homepage": "https://github.com/lordelph/bootstrap-daterangepicker",
+    "authors": [
+        {"name": "Dan Grossman", "email": "dan@dangrossman.info"},
+        {"name": "Paul ixon", "email": "paul@elphin.com"}
+    ],
+    "license": "MIT",
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "daterangepicker.js"
+            ],
+            "styles": [
+                "daterangepicker.css"
+            ],
+            "files": [
+                "moment.min.js",
+                "moment.js",
+                "daterangepicker.css",
+                "daterangepicker.js"
+            ]
+        }
+    }
+}
